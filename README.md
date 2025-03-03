@@ -88,8 +88,46 @@ The README file contributes to effective collaboration by;
   4. Prevents Repetitive Questions – A well-documented README minimizes repeated queries about installation, setup, or usage.
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
+1. Public Repositories
+   A public repository is accessible to anyone on GitHub. Any user can view, fork, and clone the code, though only authorized contributors can modify it.
+
+   Advantages of Public Repositories
+   (i) Open Collaboration – Encourages contributions from developers worldwide. Ideal for open-source projects.
+   (ii) Community Support & Feedback – Attracts developers who can report issues, suggest improvements, and contribute code.
+   (iii) Visibility and Portfolio Building – Useful for showcasing work to potential employers, collaborators, or clients.
+   (iv) Free Hosting – GitHub allows unlimited public repositories for free, making it cost-effective.
+
+   Disadvantages of Public Repositories
+   (i) Lack of Privacy – The code is accessible to everyone, which might not be ideal for proprietary or sensitive projects.
+   (ii) Potential for Low-Quality Contributions – Open collaboration may lead to unnecessary or low-quality pull requests.
+   (iii) Risk of Code Misuse – Without proper licensing, others might use the code in unintended ways.
+
+2. Private Repositories
+   A private repository is restricted to selected users. Only invited collaborators can view and contribute to the project.
+
+   Advantages of Private Repositories
+   (i)Confidentiality & Security – Suitable for proprietary, business, or unpublished projects.
+   (ii)Controlled Access – Only authorized team members can view or modify the code.
+   (iii)Prevents Unauthorized Forks – Unlike public repos, others cannot fork private repositories.
+   (iv)Internal Development – Enables teams to work on projects without exposing unfinished or experimental features.
+
+   Disadvantages of Private Repositories
+   (i) Limited Collaboration – Less community involvement since only invited users can contribute.
+   (ii) Less Exposure – Doesn’t contribute to open-source credibility or attract external contributors.
+   (iii)Cost Considerations – Free accounts can create private repositories, but advanced collaboration tools (e.g., GitHub Teams) may require paid plans.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+A commit is a snapshot of the changes made to a project at a specific point in time. It records what has been added, modified, or deleted in a repository, allowing version control and collaboration. Commits help in tracking changes and managing different versions of your project by allowing the developers to trace all changes made to a GitHub repo, at which times and by which developers. The developers can restore previous versions before the commits incase new commits have bugs or errors. Commits also help with accountability.
+
+The following steps are involved in making your firt commit on a GitHub repository;
+1. Creating a GitHub repository - We create a GitHub repo, add a title, a description, a README file and the various licences.
+2. Set up Git locally - Install Git locally on your computer and configure Git with your username and email.
+3. Clone the repository to your local machine.
+4. Initialize Git - this creates a .git folder making it a Git repository.
+5. Make the required changes to the Git repository.
+6. Stage Changes - Before committing, changes need to be staged. This tells Git which files to include in the next commit.
+7. Create the first commit using the git commit -m (followed by a short description) command on Git bash.
+8. Push the commit to GitHub to finalize the process.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
